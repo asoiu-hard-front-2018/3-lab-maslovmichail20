@@ -1,0 +1,9 @@
+.site-menu__item {
+  position: relative;
+  font-size: 11px;
+  padding: 0 22px;
+  text-decoration: none;
+  color: black;
+}
+
+@import "_active/site-menu__item_active";

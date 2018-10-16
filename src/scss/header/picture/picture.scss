@@ -1,0 +1,11 @@
+.picture {
+  display: block;
+  width: 100%;
+  z-index: -1;
+}
+
+@import "picture-container";
+@import "__text/picture__text";
+@import "__caption/picture__caption";
+@import "__description/picture__description";
+@import "__down-button/picture__down-button";

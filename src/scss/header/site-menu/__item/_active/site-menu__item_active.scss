@@ -1,0 +1,9 @@
+.site-menu__item_active {
+  position: absolute;
+  width: 100%;
+  top: 4px;
+  left: 0;
+  height: 4px;
+  background-color: #efae7c;
+  z-index: -1;
+}

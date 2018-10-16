@@ -1,0 +1,20 @@
+$roboto: 'Roboto', sans-serif;
+
+.font_roboto {
+  font-family: $roboto;
+  font-weight: 400;
+}
+
+.font_roboto-medium {
+  font-family: $roboto;
+  font-weight: 500;
+}
+
+.font_roboto-bold {
+  font-family: $roboto;
+  font-weight: 900;
+}
+
+.font_roboto-slab {
+  font-family: 'Roboto Slab', serif;
+}

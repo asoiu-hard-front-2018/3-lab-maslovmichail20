@@ -1,0 +1,20 @@
+$width: 35px;
+
+.picture__down-button {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: $width;
+  height: $width;
+  border-radius: $width/2;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    .down-button__arrow {
+      top: 20px;
+    }
+  }
+}
+
+@import "__arrow/down-button__arrow";
