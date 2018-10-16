@@ -56,7 +56,8 @@ module.exports = {
       chunkFilename: "[id].css"
     }),
     new HtmlWebpackPlugin({
-      template: 'src/html/index.html',
+      template: 'src/index.html',
+      favicon: "src/ico/favicon.ico",
       files: {
         "css": [ "./css/main.css" ],
       }
