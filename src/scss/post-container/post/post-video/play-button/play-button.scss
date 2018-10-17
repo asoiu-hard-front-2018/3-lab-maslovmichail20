@@ -1,0 +1,19 @@
+$size: 60px;
+
+.play-button {
+  position: absolute;
+  left: 100px;
+  top: $size;
+  height: $size;
+  width: $size;
+  border-radius: $size/2;
+  background-color: white;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #c1e1f4;
+  }
+}
+
+@import "play-icon/play-icon";

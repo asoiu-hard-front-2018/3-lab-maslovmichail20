@@ -1,0 +1,27 @@
+.post_size-big {
+  text-align: left;
+  position: relative;
+  width: 550px;
+  height: 570px;
+  margin: 1.1%;
+
+  .post-img {
+    width: 550px;
+    height: 400px;
+  }
+
+  .post-caption {
+    font-size: 20px;
+  }
+
+  .post-date {
+    position: absolute;
+    right: 5px;
+    top: 425px;
+  }
+
+  .post-label {
+    left: initial;
+    right: 15px;
+  }
+}

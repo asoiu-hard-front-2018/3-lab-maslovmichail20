@@ -1,0 +1,18 @@
+.navigation__list__item {
+  display: inline;
+  padding: 10px 30px;
+  background-color: white;
+  margin-right: 15px;
+  cursor: pointer;
+
+  font-size: 12px;
+  color: #7a7887;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: #c1e1f4;
+    color: #423f54
+  }
+}
+
+@import "_active/navigation__list__item_active";
