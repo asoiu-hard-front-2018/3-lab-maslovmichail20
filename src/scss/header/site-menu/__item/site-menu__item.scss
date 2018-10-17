@@ -4,6 +4,11 @@
   padding: 0 22px;
   text-decoration: none;
   color: black;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #82808B;
+  }
 }
 
 @import "_active/site-menu__item_active";

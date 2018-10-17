@@ -1,10 +1,10 @@
 .down-button__arrow {
   position: absolute;
   width: 15px;
-  height: 1px;
+  height: 2px;
   background-color: white;
   top: 15px;
-  transition: top 0.2s ease;
+  transition: top 0.2s ease, background-color 0.2s ease;
 
   &:first-child {
     left: 5px;
