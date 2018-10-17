@@ -2,9 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 780px;
 }
 
-@import "_size-half/post-container_size-half";
 @import "post/post";
 @import "sidebar/sidebar";

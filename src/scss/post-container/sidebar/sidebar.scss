@@ -1,9 +1,21 @@
 .sidebar {
   width: 260px;
-  height: 570px;
+  height: 520px;
   margin: 1.1%;
+  padding: 25px 0;
   display: flex;
   flex-direction: column;
   text-align: left;
   background-color: white;
+
+  @media screen and (max-width: 1150px) {
+    flex-direction: row;
+    justify-self: flex-start;
+    width: 890px;
+    padding: 25px 25px;
+    height: auto;
+  }
 }
+
+@import "__item/sidebar__item";
+@import "__line/sidebar__line";

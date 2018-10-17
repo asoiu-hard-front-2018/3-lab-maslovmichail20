@@ -1,0 +1,28 @@
+.sidebar__item {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+
+  .post-caption {
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #FFAF7A;
+    }
+
+    @media screen and (max-width: 1150px) {
+      width: 105px;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    padding: 0 10px 0 0;
+    border-right: 1px solid #7a7887;
+    &:last-child {
+      padding: 0;
+      border-right: none;
+    }
+  }
+}

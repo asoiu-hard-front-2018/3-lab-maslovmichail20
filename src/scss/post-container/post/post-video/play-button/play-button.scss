@@ -10,6 +10,9 @@ $size: 60px;
   background-color: white;
   transition: background-color 0.3s ease;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &:hover {
     background-color: #c1e1f4;
