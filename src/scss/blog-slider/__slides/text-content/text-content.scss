@@ -1,0 +1,9 @@
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@import "__button/text-content__button";
+@import "__caption/text-content__caption";
+@import "__description/text-content__description";

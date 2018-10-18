@@ -1,0 +1,31 @@
+input[type="radio"] {
+  position: absolute;
+}
+
+#switch1 {
+  left: 10px;
+  &:checked ~ .slides-container {
+    margin-left: 0;
+  }
+}
+
+#switch2 {
+  left: 20px;
+  &:checked ~ .slides-container {
+    margin-left: -100%;
+  }
+}
+
+#switch3 {
+  left: 30px;
+  &:checked ~ .slides-container {
+    margin-left: -200%;
+  }
+}
+
+#switch4 {
+  left: 40px;
+  &:checked ~ .slides-container {
+    margin-left: -300%;
+  }
+}
