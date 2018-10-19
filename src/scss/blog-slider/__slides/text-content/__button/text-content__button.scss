@@ -1,2 +1,14 @@
+.text-content__button {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px 10px 25px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(160, 159, 169, 0.4);
+  }
+}
+
 @import "__icon/text-content__button__icon";
 @import "__text/text-content__button__text";

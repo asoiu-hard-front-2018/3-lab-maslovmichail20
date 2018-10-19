@@ -7,15 +7,15 @@ input[type="radio"] {
   z-index: 10000;
   bottom: 25px;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -30px;
 
   label {
     display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin: 3px;
+    width: 8px;
+    height: 8px;
+    margin: 2px;
     border-radius: 50%;
-    background: #a09fa9;
+    background: #555365;
     cursor: pointer;
     transition: all 0.5s ease;
 
@@ -54,7 +54,7 @@ input[type="radio"] {
 #switch3:checked ~ .blog-slider__controls label:nth-child(3),
 #switch4:checked ~ .blog-slider__controls label:nth-child(4) {
   background: #FFAF7A;
-  width: 14px;
-  height: 14px;
-  margin: 1px 1px 2px;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
 }
