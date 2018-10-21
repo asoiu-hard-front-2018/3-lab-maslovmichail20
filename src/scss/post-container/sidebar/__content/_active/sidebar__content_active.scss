@@ -1,0 +1,8 @@
+.sidebar__content_active {
+  margin-left: 0;
+  @media screen and (max-width: 1150px) {
+    .sidebar__item_active {
+      display: flex;
+    }
+  }
+}

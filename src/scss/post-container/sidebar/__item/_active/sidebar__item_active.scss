@@ -1,0 +1,10 @@
+.sidebar__item_active {
+  display: flex;
+  padding: 0 25px;
+  align-items: center;
+  border-left: 2px solid #FFAF7A;
+
+  @media screen and (max-width: 1150px) {
+    padding: 0 0 0 10px;
+  }
+}

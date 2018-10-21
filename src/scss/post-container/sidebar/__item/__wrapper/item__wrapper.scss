@@ -1,0 +1,21 @@
+.item__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 10px;
+
+  .post-caption {
+    width: 130px;
+    margin-top: 0;
+    color: #FFAF7A;
+    cursor: pointer;
+
+    @media screen and (max-width: 1150px) {
+      width: 90px;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    margin-left: 5px;
+  }
+}

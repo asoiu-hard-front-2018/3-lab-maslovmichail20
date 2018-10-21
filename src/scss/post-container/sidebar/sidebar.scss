@@ -7,6 +7,7 @@
   flex-direction: column;
   text-align: left;
   background-color: white;
+  overflow: hidden;
 
   @media screen and (max-width: 1150px) {
     flex-direction: row;
@@ -19,3 +20,4 @@
 
 @import "__item/sidebar__item";
 @import "__line/sidebar__line";
+@import "__content/sidebar__content";

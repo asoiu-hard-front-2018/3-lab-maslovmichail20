@@ -1,0 +1,8 @@
+.item__img {
+  width: 67px;
+  margin-left: -2px;
+
+  @media screen and (max-width: 1150px) {
+    display: none;
+  }
+}

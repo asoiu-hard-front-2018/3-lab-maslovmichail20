@@ -1,0 +1,18 @@
+.sidebar__content {
+  display: flex;
+  justify-content: left;
+  overflow: hidden;
+  margin-left: -255px;
+  transition: margin-left 0.8s ease;
+
+  @media screen and (max-width: 1150px) {
+    width: 105px;
+    margin-left: 0;
+
+    .sidebar__item_active {
+      display: none;
+    }
+  }
+}
+
+@import "_active/sidebar__content_active";
