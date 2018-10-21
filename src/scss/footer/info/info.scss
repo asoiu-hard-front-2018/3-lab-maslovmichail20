@@ -1,0 +1,9 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@import "__list/info__list";
+@import "copyright/copyright";
+@import "__social-media/info__social-media";

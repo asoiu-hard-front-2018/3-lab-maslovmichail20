@@ -1,0 +1,9 @@
+.footer {
+  background-color: #f4f7fd;
+  padding: 0.5% 0 1%;
+}
+
+@import "__info/footer__info";
+@import "info/info";
+@import "__site-menu/footer__site-menu";
+@import "_active/footer_active";

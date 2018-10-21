@@ -1,0 +1,10 @@
+.social-media__link__logo {
+  width: 15px;
+  height: 15px;
+  fill: #b5b3b9;
+  transition: all 0.3s ease;
+
+  &:hover {
+    fill: #FFAF7A;
+  }
+}
