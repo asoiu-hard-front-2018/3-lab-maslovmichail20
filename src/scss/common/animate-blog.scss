@@ -1,0 +1,8 @@
+@keyframes change-posts {
+  25% { opacity: 0; }
+  100% { opacity: 1 }
+}
+
+.animate-blog {
+  animation: change-posts 1s ease;
+}
